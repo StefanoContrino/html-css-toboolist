@@ -5,21 +5,19 @@
 }
 
 header {
-    height: 75px;
+    height: auto;
     background-color: white;
 }
 
 .img-logo {
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 10px;
+    padding: 5px;
     height: 50px;
     vertical-align: middle;
 }
 
 .text-logo {
     display: inline;
-    font-size: 50px;
+    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     vertical-align: middle; 
 }
@@ -30,10 +28,11 @@ body {
 
 .content {
     background-color: white;
-    margin-top: 25px;
-    margin-left: 150px;
+    margin: 25px auto;
     height: 500px;
     width: 400px;
+    max-width: 400px;
+    min-width: 400px;
 }
 
 .add-task {
@@ -42,8 +41,8 @@ body {
     margin-top: 15px;
     margin-right: 10px;
     border: solid #43ACF0 1px;
-    border-radius: 15%;
-    padding: 2px;
+    border-radius: 10px;
+    padding: 2px 6px;
     background-color: #43ACF0;
     color: white;
 }
@@ -51,19 +50,19 @@ body {
 .add-section {
     display: inline-block;
     border: solid grey 1px;
-    border-radius: 15%;
-    padding: 2px;
+    border-radius: 10px;
+    padding: 2px 6px;
     background-color: white;
     color: grey;
 }
 
 hr {
-    display: inline-block;
-    color: black;
+    margin: 10px 0px;
+    color: #f7f8fa;
 }
 
 .task {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 40px;
 }
 
@@ -75,8 +74,8 @@ hr {
 .editorial {
     margin-left: 10px;
     color: white;
-    padding: 2px;
-    border-radius: 35%;
+    padding: 2px 6px;
+    border-radius: 10px;
     background-color: #43ACF0;
     border: solid #43ACF0 1px;
 }
@@ -84,8 +83,8 @@ hr {
 .goals {
     margin-left: 10px;
     color: white;
-    padding: 2px;
-    border-radius: 35%;
+    padding: 2px 6px;
+    border-radius: 10px;
     background-color: #A37FE9;
     border: solid #A37FE9 1px;
 }
@@ -93,8 +92,8 @@ hr {
 .recruiting {
     margin-left: 10px;
     color: white;
-    padding: 2px;
-    border-radius: 35%;
+    padding: 2px 6px;
+    border-radius: 10px;
     background-color: #62C1A9;
     border: solid #62C1A9 1px;
 }
@@ -102,8 +101,8 @@ hr {
 .mobile {
     margin-left: 10px;
     color: white;
-    padding: 2px;
-    border-radius: 35%;
+    padding: 2px 6px;
+    border-radius: 10px;
     background-color: #EDA43E;
     border: solid #EDA43E 1px;
 }
@@ -111,8 +110,8 @@ hr {
 .website {
     margin-left: 10px;
     color: white;
-    padding: 2px;
-    border-radius: 35%;
+    padding: 2px 6px;
+    border-radius: 10px;
     background-color: #D86DA3;
     border: solid #D86DA3 1px;
 }
@@ -120,8 +119,8 @@ hr {
 .sales {
     margin-left: 10px;
     color: white;
-    padding: 2px;
-    border-radius: 35%;
+    padding: 2px 6px;
+    border-radius: 10px;
     background-color: #AEC829;
     border: solid #AEC829 1px;
 }
@@ -133,4 +132,21 @@ hr {
     color: #43A047;
     margin-right: 5px;
     font-size: 10px;
+}
+
+.not-checkmark {
+    border-radius: 50%;
+    border: solid red 1px;
+    padding: 2px;
+    color: red;
+    margin-right: 5px;
+    font-size: 10px;
+}
+
+.title {
+    vertical-align: middle;
+}
+
+.arrow {
+    vertical-align: middle;
 }
