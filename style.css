@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 75px;
+    background-color: white;
+}
+
+.img-logo {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.text-logo {
+    display: inline;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle; 
+}
+
+body {
+    background-color: #f7f8fa;
+}
+
+.content {
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 150px;
+    height: 500px;
+    width: 400px;
+}
+
+.add-task {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border: solid #43ACF0 1px;
+    border-radius: 15%;
+    padding: 2px;
+    background-color: #43ACF0;
+    color: white;
+}
+
+.add-section {
+    display: inline-block;
+    border: solid grey 1px;
+    border-radius: 15%;
+    padding: 2px;
+    background-color: white;
+    color: grey;
+}
+
+hr {
+    display: inline-block;
+    color: black;
+}
+
+.task {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.specific {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.editorial {
+    margin-left: 10px;
+    color: white;
+    padding: 2px;
+    border-radius: 35%;
+    background-color: #43ACF0;
+    border: solid #43ACF0 1px;
+}
+
+.goals {
+    margin-left: 10px;
+    color: white;
+    padding: 2px;
+    border-radius: 35%;
+    background-color: #A37FE9;
+    border: solid #A37FE9 1px;
+}
+
+.recruiting {
+    margin-left: 10px;
+    color: white;
+    padding: 2px;
+    border-radius: 35%;
+    background-color: #62C1A9;
+    border: solid #62C1A9 1px;
+}
+
+.mobile {
+    margin-left: 10px;
+    color: white;
+    padding: 2px;
+    border-radius: 35%;
+    background-color: #EDA43E;
+    border: solid #EDA43E 1px;
+}
+
+.website {
+    margin-left: 10px;
+    color: white;
+    padding: 2px;
+    border-radius: 35%;
+    background-color: #D86DA3;
+    border: solid #D86DA3 1px;
+}
+
+.sales {
+    margin-left: 10px;
+    color: white;
+    padding: 2px;
+    border-radius: 35%;
+    background-color: #AEC829;
+    border: solid #AEC829 1px;
+}
+
+.checkmark {
+    border-radius: 50%;
+    border: solid #43A047 1px;
+    padding: 2px;
+    color: #43A047;
+    margin-right: 5px;
+    font-size: 10px;
+}
